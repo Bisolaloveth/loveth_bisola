@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisola Loveth </title>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;500;700;900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lexend", monospace;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+
+/* Center the content vertically and horizontally */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#slackUserName {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#slackDisplayImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+#currentDayOfTheWeek {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+#currentUTCTime {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+#myTrack {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+#githubURL {
+    font-size: 16px;
+    color: #0073e6;
+    text-decoration: none;
+}
+
+#githubURL:hover {
+    text-decoration: underline;
+}
+
+</style>
+<body>
+    <div class="container">
+        <!-- Slack Name -->
+        <h1 id="slackUserName">Username: Bisola Loveth</h1>
+
+        <!-- Slack Display Picture -->
+        <img src="bisola_loveth.jpg" alt="Bisola Loveth" id="slackDisplayImage">
+
+        <!-- Current Day of the Week -->
+        <p id="currentDayOfTheWeek">Day: Monday</p>
+
+        <!-- Current UTC Time -->
+        <p id="currentUTCTime in milliseconds">UTC time in milliseconds: 1694451153497 UTC</p>
+
+        <!-- Track -->
+        <p id="myTrack">Track: Frontend</p>
+
+        <!-- GitHub URL -->
+        <a href="https://github.com/bisolaloveth" id="githubURL">My GitHub Repository</a>
+    </div>
+</body>
+</html>
